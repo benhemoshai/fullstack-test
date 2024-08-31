@@ -1,0 +1,37 @@
+<div class="publishers-container">
+  <div class="form-container">
+      <h2>Add New Publisher</h2>
+      <form (ngSubmit)="addPublisher()">
+          <div>
+              <label for="publisherName">Publisher Name:</label>
+              <input 
+                  type="text" 
+                  [(ngModel)]="newPublisherName" 
+                  name="publisherName"
+              />
+          </div>
+          <div>
+            <div>
+              <label for="publisherDomains">Publisher Domains:</label>
+            </div>
+              <input 
+                  type="text"
+                  [(ngModel)]="newPublisherDomains" 
+                  name="publisherDomains"
+                  placeholder="url"
+              />
+              <input placeholder="number of desktopAds">
+              <input placeholder="number of mobileAds">
+              <button>Add another domain</button>
+          </div>
+          <button type="submit">Add Publisher</button>
+      </form>
+  </div>
+
+  <div class="publishers-list">
+      <app-publisher-card 
+          *ngFor="let publisher of publishers" 
+          [publisher]="publisher"
+      ></app-publisher-card>
+  </div>
+</div>

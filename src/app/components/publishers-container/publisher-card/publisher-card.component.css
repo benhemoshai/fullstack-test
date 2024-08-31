@@ -1,0 +1,12 @@
+.publisher-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: #F9F9F9;
+  overflow: hidden;
+  margin: 25px 0px;
+}

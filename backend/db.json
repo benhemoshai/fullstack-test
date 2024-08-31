@@ -1,0 +1,40 @@
+[
+  {
+    "publisher": "1",
+    "domains": []
+  },
+  {
+    "publisher": "shai ben hemo",
+    "domains": []
+  },
+  {
+    "publisher": "publisher 1",
+    "domains": [
+      {
+        "url": "bla.com",
+        "desktopAds": 5,
+        "mobileAds": 3
+      },
+      {
+        "url": "bla1.com",
+        "desktopAds": 2,
+        "mobileAds": 30
+      }
+    ]
+  },
+  {
+    "publisher": "publisher 2",
+    "domains": [
+      {
+        "url": "gar.com",
+        "desktopAds": 0,
+        "mobileAds": 4
+      },
+      {
+        "url": "gar1.com",
+        "desktopAds": 5,
+        "mobileAds": 3
+      }
+    ]
+  }
+]
